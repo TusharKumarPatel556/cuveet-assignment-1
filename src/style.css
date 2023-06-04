@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 7fr 5fr;
+}
+
+#section {
+    background-color: #FFCD9E;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.pos {
+    margin-left: 130px;
+    margin-bottom: 10px;
+
+}
+
+#quote {
+    width: 562px;
+    height: 108px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #282828;
+}
+
+#para {
+    width: 515px;
+    height: 81px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: initial;
+    color: #484848;
+}
+
+#para-1 {
+    width: 247px;
+    height: 81px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 82px;
+    color: #282828;
+}
+
+#search {
+    display: flex;
+}
+
+#input {
+    width: 344px;
+    height: 64px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid black;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+#button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    width: 216px;
+    height: 64px;
+    font-weight: 700;
+    font-size: 16px;
+    background: #282828;
+    margin-left: 20px;
+    border-radius: 10px;
+
+}
+
+
+#last-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    width: 246px;
+    height: 64px;
+    padding-left: 30px;
+}
+
+#person {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #282828;
+}
+
+.list-item {
+    padding: 50px 250px;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
